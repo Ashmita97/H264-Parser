@@ -1,22 +1,27 @@
 # H264-Parser
 
 WHAT IS H.264?
+
 H.264 is a video compression technology, or codec.
 The terms H.264 and AVC are interchangeable. 
 As a video codec, H.264 can be incorporated into multiple container formats, such as .MP4,.MOV .F4V, .3GP, .ts.
  
 THE H.264 BITSTREAM
+
 An h.264 bitstream contains a sequence of Network Abstraction Layer (NAL) units.
 The coded video data is organized into NAL units, each of which is effectively a packet that contains an integer number of bytes.
 The SPS and PPS are both types of NAL units.
  
 WHAT IS A PARSER ?
+
 In computer technology, a parser is a program, that receives input and breaks it down into simplified parts.
  
 GOAL :
+
 To provide a complete set of functions to parse video bitstreams conforming to the ITU-T H.264 | ISO/IEC 14496-10 AVC video standard.
  
 ADVANTAGES:
+
 Though a significant number of parsers are available online, this parser stands out as it is flexible enough to be implemented in numerous ways.
  
 This parser consists of multiple classes:
